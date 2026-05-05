@@ -1,4 +1,5 @@
 import { SectionProps, Course } from "@/types";
+import CourseCard from "@/components/CourseCard";
 
 const courses: Course[] = [
   {
@@ -64,14 +65,7 @@ export default function Courses({ id }: SectionProps) {
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {courses.map((course) => (
-            <article
-              key={course.id}
-              className="bg-white rounded-xl p-6 shadow-sm hover:shadow-lg transition-shadow duration-300 border border-zinc-100"
-            >
-              <h3 className="text-lg font-semibold text-zinc-900">{course.name}</h3>
-              <p className="mt-1 text-sm text-violet-600 font-medium">{course.category}</p>
-              <p className="mt-3 text-sm text-zinc-600">{course.description}</p>
-            </article>
+            <CourseCard key={course.id} course={course} />
           ))}
         </div>
       </div>

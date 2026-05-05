@@ -10,7 +10,8 @@ export const revalidate = false;
 
 export const metadata: Metadata = {
   title: "Hudozhka — детская художественная школа",
-  description: "Школа искусств для детей от 4 до 14 лет. Рисунок, живопись, лепка и другие творческие курсы.",
+  description:
+    "Школа искусств для детей от 4 до 14 лет. Рисунок, живопись, лепка и другие творческие курсы.",
 };
 
 export default function Home() {

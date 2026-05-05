@@ -3,9 +3,10 @@
 import { useState } from "react";
 
 const navLinks = [
-  { href: "#about", label: "О школе" },
-  { href: "#courses", label: "Наши курсы" },
-  { href: "#contact", label: "Контакты" },
+  { href: "/#about", label: "О школе" },
+  { href: "/#courses", label: "Наши курсы" },
+  { href: "/art-and-wine/", label: "Art and Wine" },
+  { href: "/#contact", label: "Контакты" },
 ];
 
 export default function Navbar() {
@@ -16,7 +17,7 @@ export default function Navbar() {
       <nav className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8" aria-label="Главная навигация">
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
-            <a href="#" className="flex items-center gap-2" aria-label="Логотип школы">
+            <a href="/" className="flex items-center gap-2" aria-label="Логотип школы">
               <div className="w-8 h-8 bg-violet-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">H</span>
               </div>
