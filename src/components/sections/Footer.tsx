@@ -126,7 +126,7 @@ export default function Footer({ id }: SectionProps) {
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-zinc-800 text-center text-sm text-zinc-500">
+        <div className="mt-12 pt-8 border-t border-zinc-800 text-center text-sm text-zinc-400">
           <p>© {currentYear} Hudozhka. Все права защищены.</p>
         </div>
       </div>
