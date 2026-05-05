@@ -73,7 +73,7 @@ export default function About({ id }: SectionProps) {
                 sizes="(max-width: 1024px) 100vw, 500px"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-yellow text-pink p-6 rounded-xl shadow-lg font-bold">
+            <div className="absolute -bottom-6 -right-3 bg-yellow text-pink p-6 rounded-xl shadow-lg font-bold">
               <p className="text-3xl uppercase">10 лет</p>
               <p className="text-md ">успешной работы</p>
             </div>
