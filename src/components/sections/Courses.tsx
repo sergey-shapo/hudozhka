@@ -6,19 +6,22 @@ const courses: Course[] = [
     id: "1",
     name: "Рисунок и живопись",
     category: "4-6 лет",
-    description: "Основы работы с красками, кистью и цветом через игру и творчество.",
+    description:
+      "Основы работы с красками, кистью и цветом через игру и творчество.",
   },
   {
     id: "2",
     name: "Лепка и скульптура",
     category: "5-8 лет",
-    description: "Развитие мелкой моторики и объёмного мышления с различными материалами.",
+    description:
+      "Развитие мелкой моторики и объёмного мышления с различными материалами.",
   },
   {
     id: "3",
     name: "Акварель",
     category: "7-10 лет",
-    description: "Техники акварельной живописи, создание пейзажей и натюрмортов.",
+    description:
+      "Техники акварельной живописи, создание пейзажей и натюрмортов.",
   },
   {
     id: "4",
@@ -48,18 +51,22 @@ const courses: Course[] = [
     id: "8",
     name: "История искусств",
     category: "8-14 лет",
-    description: "Знакомство с шедеврами мировой живописи и великими мастерами.",
+    description:
+      "Знакомство с шедеврами мировой живописи и великими мастерами.",
   },
 ];
 
 export default function Courses({ id }: SectionProps) {
   return (
-    <section id={id} className="py-20 bg-zinc-50">
+    <section id={id} className="py-20 bg-light-blue">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl sm:text-4xl font-bold text-zinc-900">Наши курсы</h2>
+          <h2 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight break-words font-nunito text-center">
+            Наши курсы
+          </h2>
           <p className="mt-4 text-lg text-zinc-600 max-w-2xl mx-auto">
-            Мы предлагаем разнообразные направления для детей разного возраста. Найдите идеальный курс для вашего ребёнка.
+            Мы предлагаем разнообразные направления для детей и подростков.
+            Найдите идеальный курс для вашего ребёнка.
           </p>
         </div>
 

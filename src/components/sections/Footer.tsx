@@ -6,14 +6,11 @@ export default function Footer({ id }: SectionProps) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer id={id} className="py-12 bg-zinc-900 text-zinc-300">
+    <footer id={id} className="py-12 bg-dark-blue text-zinc-300">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid sm:grid-cols-3 gap-8">
           <div>
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-violet-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">H</span>
-              </div>
               <span className="text-xl font-semibold text-white">Hudozhka</span>
             </div>
             <p className="mt-4 text-sm ">
@@ -45,7 +42,7 @@ export default function Footer({ id }: SectionProps) {
                     d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
                   />
                 </svg>
-                <span>Barcelona, Numancia 111 - 115</span>
+                <span>Barcelona, c/ Numancia 111–115</span>
               </li>
               <li className="flex items-center gap-2">
                 <svg

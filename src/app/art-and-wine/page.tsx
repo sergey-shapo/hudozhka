@@ -30,7 +30,7 @@ export default function ArtAndWine() {
             />
           </div>
           <div className="relative max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white font-nunito">
               Art and Wine
             </h1>
             <p className="mt-6 text-xl sm:text-2xl text-zinc-300">
@@ -44,7 +44,7 @@ export default function ArtAndWine() {
 
         <section className="py-20 bg-white">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-zinc-900 text-center">
+            <h2 className="text-3xl font-bold text-zinc-900 text-center font-nunito">
               Что такое Art and Wine?
             </h2>
             <p className="mt-6 text-lg text-zinc-600 leading-relaxed">
@@ -64,7 +64,7 @@ export default function ArtAndWine() {
 
         <section className="py-20 bg-zinc-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h2 className="text-3xl font-bold text-zinc-900 text-center">
+            <h2 className="text-3xl font-bold text-zinc-900 text-center font-nunito">
               Программа вечера
             </h2>
             <div className="mt-12 grid gap-8 sm:grid-cols-2">
@@ -114,7 +114,7 @@ export default function ArtAndWine() {
 
         <section className="py-20 bg-violet-600">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-3xl font-bold text-white">
+            <h2 className="text-3xl font-bold text-white font-nunito">
               Запишитесь на Art and Wine
             </h2>
             <p className="mt-4 text-lg text-violet-100">
@@ -131,7 +131,7 @@ export default function ArtAndWine() {
 
         <section className="py-20 bg-zinc-900">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-2xl font-bold text-white">
+            <h2 className="text-2xl font-bold text-white font-nunito">
               Часто задаваемые вопросы
             </h2>
             <div className="mt-8 text-left space-y-6">
