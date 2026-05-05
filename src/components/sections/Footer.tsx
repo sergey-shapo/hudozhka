@@ -14,7 +14,7 @@ export default function Footer({ id }: SectionProps) {
               </div>
               <span className="text-xl font-semibold text-white">Hudozhka</span>
             </div>
-            <p className="mt-4 text-sm text-zinc-400">
+            <p className="mt-4 text-sm ">
               Детская художественная школа в Барселоне. Раскрываем творческий
               потенциал каждого ребёнка.
             </p>
