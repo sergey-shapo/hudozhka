@@ -6,11 +6,15 @@ export default function Hero({ id }: SectionProps) {
     <section
       id={id}
       className="relative min-h-screen flex items-center pt-16 bg-gradient-to-t from-pink/20 via-white to-light-blue overflow-x-hidden"
+      style={{
+        backgroundColor: '#fefefe',
+        backgroundImage: 'linear-gradient(to top, rgba(237, 70, 218, 0.1), rgba(255, 255, 255, 1), rgba(214, 231, 239, 1))',
+      }}
     >
       {/* Fondo decorativo (descomentado y seguro) */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-light-blue/30 rounded-full opacity-30 blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-light-blue/40 rounded-full opacity-50 blur-3xl"></div>
+        <div className="absolute -top-40 -right-40 w-80 h-80 bg-pink/20 rounded-full opacity-30 blur-3xl"></div>
+        <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-pink/30 rounded-full opacity-40 blur-3xl"></div>
       </div>
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
