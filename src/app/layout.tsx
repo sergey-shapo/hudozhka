@@ -25,43 +25,50 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Hudozhka — детская художественная школа в Барселоне",
+    default: "Детская художественная школа в Барселоне | Hudozhka",
     template: "%s | Hudozhka",
   },
-  description: "Художественная школа для детей в Барселоне. Рисунок, живопись, лепка для детей от 4 до 14 лет. Творческое развитие в дружеской атмосфере.",
-  keywords: ["детская художественная школа", " Барселона", " рисование для детей", " лепка", " творчество", " искусство для детей", " художественная школа Испания"],
+  description:
+    "🎨 Детская художественная школа в Барселоне для детей 4-14 лет. Рисунок, живопись, лепка с русскоязычными педагогами. Пробный урок бесплатно!",
+  keywords: [
+    "детская художественная школа барселона",
+    "уроки рисования для детей барселона",
+    "русская школа искусства испания",
+    "творческие кружки барселона",
+  ],
   authors: [{ name: "Hudozhka" }],
   creator: "Hudozhka",
   publisher: "Hudozhka",
-  metadataBase: new URL("https://hudozhka.com"),
+  metadataBase: new URL("https://hudozhka.es"),
   alternates: {
-    canonical: "https://hudozhka.com/",
+    canonical: "https://hudozhka.es/",
     languages: {
-      "ru": "https://hudozhka.com/",
-      "es": "https://hudozhka.com/",
+      ru: "https://hudozhka.es/",
     },
   },
   openGraph: {
     type: "website",
     locale: "ru_RU",
-    url: "https://hudozhka.com",
+    url: "https://hudozhka.es",
     siteName: "Hudozhka",
-    title: "Hudozhka — детская художественная школа в Барселоне",
-    description: "Художественная школа для детей в Барселоне. Рисунок, живопись, лепка для детей от 4 до 14 лет.",
+    title: "Детская художественная школа в Барселоне | Hudozhka",
+    description:
+      "🎨 Детская художественная школа в Барселоне для детей 4-14 лет. Рисунок, живопись, лепка с русскоязычными педагогами. Пробный урок бесплатно!",
     images: [
       {
-        url: "/og-image.jpg",
+        url: "/images/hero-art.webp",
         width: 1200,
         height: 630,
-        alt: "Hudozhka — детская художественная школа в Барселоне",
+        alt: "Детская художественная школа в Барселоне | Hudozhka",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hudozhka — детская художественная школа в Барселоне",
-    description: "Художественная школа для детей в Барселоне. Рисунок, живопись, лепка для детей от 4 до 14 лет.",
-    images: ["/og-image.jpg"],
+    title: "Детская художественная школа в Барселоне | Hudozhka",
+    description:
+      "🎨 Детская художественная школа в Барселоне для детей 4-14 лет. Рисунок, живопись, лепка с русскоязычными педагогами. Пробный урок бесплатно!",
+    images: ["/images/hero-art.webp"],
   },
   robots: {
     index: true,
@@ -92,40 +99,32 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
-              "@type": "LocalBusiness",
+              "@type": ["EducationalOrganization", "LocalBusiness"],
               "@id": "https://hudozhka.com/#organization",
               name: "Hudozhka",
-              description: "Детская художественная школа в Барселоне. Рисунок, живопись, лепка для детей от 4 до 14 лет.",
+              description:
+                "Детская художественная школа в Барселоне. Рисунок, живопись, лепка для детей от 4 до 17 лет.",
               url: "https://hudozhka.com",
-              telephone: "+34987654321",
+              telephone: "652 485 194",
               address: {
                 "@type": "PostalAddress",
-                streetAddress: "C/ de la Escuela, 123",
+                streetAddress: "Carrer de Numancia 111–115",
                 addressLocality: "Barcelona",
-                postalCode: "08001",
+                postalCode: "08029",
                 addressCountry: "ES",
               },
               geo: {
                 "@type": "GeoCoordinates",
-                latitude: 41.3851,
-                longitude: 2.1734,
+                latitude: 41.3864,
+                longitude: 2.1356,
               },
               openingHoursSpecification: [
                 {
                   "@type": "OpeningHoursSpecification",
-                  dayOfWeek: ["Saturday"],
-                  opens: "10:00",
-                  closes: "14:00",
-                },
-                {
-                  "@type": "OpeningHoursSpecification",
                   dayOfWeek: ["Sunday"],
-                  opens: "10:00",
-                  closes: "14:00",
                 },
               ],
-              priceRange: "€€",
-              image: "/og-image.jpg",
+              image: "/images/hero-art.webp",
               sameAs: [
                 "https://instagram.com/hudozhka",
                 "https://facebook.com/hudozhka",

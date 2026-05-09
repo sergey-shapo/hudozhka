@@ -7,8 +7,9 @@ export default function Hero({ id }: SectionProps) {
       id={id}
       className="relative min-h-screen flex items-center pt-16 bg-gradient-to-t from-pink/20 via-white to-light-blue overflow-x-hidden"
       style={{
-        backgroundColor: '#fefefe',
-        backgroundImage: 'linear-gradient(to top, rgba(237, 70, 218, 0.1), rgba(255, 255, 255, 1), rgba(214, 231, 239, 1))',
+        backgroundColor: "#fefefe",
+        backgroundImage:
+          "linear-gradient(to top, rgba(237, 70, 218, 0.1), rgba(255, 255, 255, 1), rgba(214, 231, 239, 1))",
       }}
     >
       {/* Fondo decorativo (descomentado y seguro) */}
@@ -62,7 +63,7 @@ export default function Hero({ id }: SectionProps) {
             <div className="relative w-full aspect-square max-w-lg mx-auto">
               <Image
                 src="/images/hero-art.webp"
-                alt="Дети рисуют в студии"
+                alt="Дети рисуют в студии Hudozhka Барселона"
                 fill
                 className="object-cover rounded-2xl shadow-2xl"
                 sizes="(max-width: 1024px) 100vw, 500px"
