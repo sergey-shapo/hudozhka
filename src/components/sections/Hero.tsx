@@ -21,13 +21,17 @@ export default function Hero({ id }: SectionProps) {
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-20 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="text-center lg:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight break-words font-nunito">
+            {/* <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight break-words font-nunito">
               Раскройте творческий потенциал вашего ребёнка
+            </h1> */}
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-zinc-900 leading-tight break-words font-nunito">
+              Детская художественная школа в Барселоне
             </h1>
             <p className="mt-6 text-lg sm:text-xl text-zinc-600 max-w-xl mx-auto lg:mx-0">
-              Мы создали пространство, где дети от 4 до 17 лет в Барселоне
-              развивают художественные навыки, воображение и уверенность в себе
-              через искусство.
+              Раскройте творческий потенциал вашего ребёнка в пространстве, где
+              каждый урок становится увлекательным путешествием. Мы помогаем
+              найти уникальный стиль, развивая воображение, художественный вкус
+              и уверенность в себе.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <a
