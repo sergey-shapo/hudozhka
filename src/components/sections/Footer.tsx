@@ -14,8 +14,8 @@ export default function Footer({ id }: SectionProps) {
               <span className="text-xl font-semibold text-white">Hudozhka</span>
             </div>
             <p className="mt-4 text-sm ">
-              Детская художественная школа в Барселоне. Раскрываем творческий
-              потенциал каждого ребёнка.
+              Школа искусства для детей в Барселоне, где каждый урок — шаг к
+              вдохновению, а каждая работа — маленькое открытие.
             </p>
           </div>
 
