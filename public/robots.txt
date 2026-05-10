@@ -3,4 +3,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://hudozhka.com/sitemap.xml
+Sitemap: https://hudozhka.es/sitemap.xml
